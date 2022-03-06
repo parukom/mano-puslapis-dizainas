@@ -10,5 +10,4 @@ document.querySelectorAll('linkai').forEach(n = n
     .addEventListener('click', () => {
         burger.classList.remove('active')
         navMenu.classList.remove('active')
-
     }))
