@@ -12,6 +12,10 @@ body{
     font-family: 'Noto Serif Display', serif;
     backdrop-filter: blur(3px);
 }
+.mainColors{
+    color: rgb(199, 199, 199);
+    text-shadow: 2px 2px 20px #000000;
+}
 .wrapper{
     width: 999px;
     margin: 0 auto;
@@ -85,15 +89,14 @@ li a:hover{
     height: 450px;
     background-image: url(img/billions\ year\ ago.png);
     background-size: cover;
-    border-radius: 10px;
 }
 .carbonP{
-    font-size: 1.5rem;
+    text-align: center;
+    font-size: 1.2rem;
     line-height: 70px;
     color: rgb(255, 255, 255);
     text-shadow: 2px 2px 20px #000000;
 }
-
 
 
 
@@ -106,8 +109,6 @@ padding: 5px;
 }
 .pastraipaVienas p{
     padding: 5px;
-    color: rgb(255, 255, 255);
-    text-shadow: 2px 2px 20px #000000;
 }
 .pastraipaDu img{
 float: right;
@@ -115,8 +116,6 @@ padding: 5px;
 }
 .pastraipaDu p{
     padding: 5px;
-    color: rgb(255, 255, 255);
-    text-shadow: 2px 2px 20px #000000;
 }
 .pastraipaTrys img{
 float: left;
@@ -124,8 +123,6 @@ padding: 5px;
 }
 .pastraipaTrys p{
     padding: 5px;
-    color: rgb(255, 255, 255);
-    text-shadow: 2px 2px 20px #000000;
 }
 
 
@@ -135,7 +132,6 @@ padding: 5px;
 }
 .mainSection{
     background-color: rgba(131, 130, 130, 0.479);
-    border-radius: 10px;
     height: 680px;
 }
 .topic{
@@ -144,7 +140,35 @@ padding: 5px;
 
 /**  history SECTION  **/
 
+/*** Gallery ***/
+.galleryTopic{
+    text-align: center;
+    color: rgb(199, 199, 199);
+    text-shadow: 2px 2px 20px #000000;
+}
+.galerija{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(131, 130, 130, 0.479);
 
+}
+.nuotrGalDyd{
+    width: 199px;
+    height: auto;
+}
+
+.galerDiv{
+height: 250px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.galerDiv p {
+    text-align: center;
+}
+.galerDiv img {
+    margin-top: 10px;
+}
 
 @media(min-width:769px) {
     .hide{
