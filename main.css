@@ -109,6 +109,7 @@ padding: 5px;
 }
 .pastraipaVienas p{
     padding: 5px;
+    line-height: 1.5rem;
 }
 .pastraipaDu img{
 float: right;
@@ -116,6 +117,7 @@ padding: 5px;
 }
 .pastraipaDu p{
     padding: 5px;
+    line-height: 1.5rem;
 }
 .pastraipaTrys img{
 float: left;
@@ -123,6 +125,7 @@ padding: 5px;
 }
 .pastraipaTrys p{
     padding: 5px;
+    line-height: 1.5rem;
 }
 
 
@@ -132,7 +135,7 @@ padding: 5px;
 }
 .mainSection{
     background-color: rgba(131, 130, 130, 0.479);
-    height: 680px;
+    min-height: 680px;
 }
 .topic{
     padding-left: 40px;
@@ -168,6 +171,16 @@ justify-content: space-between;
 }
 .galerDiv img {
     margin-top: 10px;
+}
+
+/**** GALERIJA ****/
+
+/***** ABOUT US *******/
+
+
+.treciaSekcija h3{
+    padding: 5px;
+    line-height: 2rem;
 }
 
 @media(min-width:769px) {
@@ -218,7 +231,12 @@ justify-content: space-between;
     .mainSection{
         height: auto;
 }
-.carbon1st{
-    display: none
+    .carbon1st{
+        display: none
+}
+    .galerija{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
 }
 };
