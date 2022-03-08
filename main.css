@@ -8,12 +8,17 @@ body{
     background-size: cover;
     background-attachment: fixed;
     background-color: rgba(0, 0, 0, 0.678);
-    background-position: center;
+    background-position:  center;
     font-family: 'Noto Serif Display', serif;
+    backdrop-filter: blur(3px);
 }
 .wrapper{
     width: 999px;
     margin: 0 auto;
+}
+.massiveText{
+    font-size:5rem;
+    margin-bottom: 0;
 }
 
 /*** Viskas kas liecia navigacija***/
@@ -71,9 +76,30 @@ li a:hover{
     margin-right: 10px;
     border-radius: 5px;
 }
+/*** Viskas kas liecia navigacija***/
+
+/***** MAIN  ****/
+
+.carbon1st{
+    width: 999px;
+    height: 450px;
+    background-image: url(img/billions\ year\ ago.png);
+    background-size: cover;
+    border-radius: 10px;
+}
+.carbonP{
+    font-size: 1.5rem;
+    line-height: 70px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 20px #000000;
+}
 
 
-/**  history  **/
+
+
+/***** MAIN ****/
+
+/**  history SECTION **/
 .pastraipaVienas img{
 float: left;
 padding: 5px;
@@ -105,11 +131,8 @@ padding: 5px;
 
 .topic{
     color: rgb(199, 199, 199);
+    text-shadow: 2px 2px 20px #000000;
 }
-
-/*** Viskas kas liecia navigacija***/
-
-/**    main   **/
 .mainSection{
     background-color: rgba(131, 130, 130, 0.479);
     border-radius: 10px;
@@ -119,9 +142,15 @@ padding: 5px;
     padding-left: 40px;
 }
 
+/**  history SECTION  **/
 
 
 
+@media(min-width:769px) {
+    .hide{
+        display: none;
+    }
+}
 
 @media(max-width:768px) {
 
@@ -157,12 +186,15 @@ padding: 5px;
     }
     /*** Viskas kas liecia navigacija***/
 
-.wrapper{
-    width: auto;
-    height: auto;
-    margin: 0 auto;
+    .wrapper{
+        width: auto;
+        height: auto;
+        margin: 0 auto;
 }
-.mainSection{
-    height: auto;
+    .mainSection{
+        height: auto;
+}
+.carbon1st{
+    display: none
 }
 };
