@@ -32,6 +32,7 @@ nav{
     justify-content: space-between;
     min-height: 60px;
 }
+
 .bi-gem{
     font-size: 3rem;
     padding: 5px;
@@ -177,10 +178,34 @@ justify-content: space-between;
 
 /***** ABOUT US *******/
 
-
 .treciaSekcija h3{
     padding: 5px;
     line-height: 2rem;
+}
+
+/***** ABOUT US *******/
+
+/****** KONTAKTAI *****/
+
+.mainCont{
+    margin-top: 20px;
+    width: 400px;
+}
+.mainCont th{
+    align-items: left;
+    line-height: 2.3rem;
+}
+
+#contact{ 
+    background-color: rgba(0, 0, 0, 0.678);
+    height: 130px;
+
+}
+
+
+.kontaktai{
+    height: 100px;
+    text-align: center;
 }
 
 @media(min-width:769px) {
