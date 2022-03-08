@@ -9,7 +9,13 @@ body{
     background-attachment: fixed;
     background-color: rgba(0, 0, 0, 0.678);
     background-position: center;
+    font-family: 'Noto Serif Display', serif;
 }
+.wrapper{
+    width: 999px;
+    margin: 0 auto;
+}
+
 /*** Viskas kas liecia navigacija***/
 nav{
     background-color: rgba(0, 0, 0, 0.678);
@@ -36,7 +42,6 @@ nav{
     padding: 3px;
     transition: 0.7s;
     padding: 0 50px;
-    font-family: 'Noto Serif Display', serif;
     line-height: 40px;
 
 }
@@ -67,7 +72,57 @@ li a:hover{
     border-radius: 5px;
 }
 
+
+/**  history  **/
+.pastraipaVienas img{
+float: left;
+padding: 5px;
+}
+.pastraipaVienas p{
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 20px #000000;
+}
+.pastraipaDu img{
+float: right;
+padding: 5px;
+}
+.pastraipaDu p{
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 20px #000000;
+}
+.pastraipaTrys img{
+float: left;
+padding: 5px;
+}
+.pastraipaTrys p{
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 20px #000000;
+}
+
+
+.topic{
+    color: rgb(199, 199, 199);
+}
+
 /*** Viskas kas liecia navigacija***/
+
+/**    main   **/
+.mainSection{
+    background-color: rgba(131, 130, 130, 0.479);
+    border-radius: 10px;
+    height: 680px;
+}
+.topic{
+    padding-left: 40px;
+}
+
+
+
+
+
 @media(max-width:768px) {
 
 /*** Viskas kas liecia navigacija***/
@@ -100,5 +155,14 @@ li a:hover{
     .navMenu.active{
         right: 0;
     }
+    /*** Viskas kas liecia navigacija***/
+
+.wrapper{
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+}
+.mainSection{
+    height: auto;
+}
 };
-/*** Viskas kas liecia navigacija***/
